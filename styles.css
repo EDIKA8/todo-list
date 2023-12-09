@@ -1,0 +1,43 @@
+* {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+body {
+  font-family: Arial, sans-serif;
+
+}
+
+#todo-list {
+  max-width: 300px;
+  margin: 20px auto;
+}
+
+#task-input {
+  width: 70%;
+  padding: 8px;
+}
+
+#add-btn {
+  width: 25%;
+  padding: 7px;
+  cursor: pointer;
+  margin-left: 70px;
+  margin-top: 7px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  margin: 5px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.delete-btn {
+  cursor: pointer;
+  color: rgb(255, 0, 0);
+  font-weight: bold;
+}
